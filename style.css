@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+.nav-margin-1{
+    margin-left: 60px;
+}
+.logo{
+    height: 35px;
+    width: 250px;
+}
+.nav-margin-2{
+    margin-left: 450px;
+}
+.nav-pad-1{
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.nav-pad{
+    margin: 10px;
+}
+.background{
+    background-color: #FFFFF4;
+}
+.banner-div-1{
+    margin-top: 80px;
+}
+.banner-div-2{
+ 
+}
+.banner-div-2 img{
+    height: 500px;
+    width: 500px;
+}
+.button{
+    border-radius: 10px;
+    background-color: midnightblue;
+    margin: 10px;
+    color: white;
+    height: 60px;
+    width: 160px;
+}
+.btn-img{
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+}
+.banner-dis{
+    height: 100%;
+    width: 100%;
+    margin-left: 130px;
+}
+.banner-div-1 h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.XMLID{
+    height: 300px;
+    width: 500px;
+}
+.text-box{
+    display: flex;
+    justify-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-box img{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+.shop-div{
+    margin: 100px;
+}
+.card-div-1{
+    margin: 80px;
+}
+.footer-dis{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.footer-dis button{
+    margin-left: 100px;
+}
+.card-title{
+    font-family: 'Bebas Neue', cursive;
+}
+.card-bg{
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card-bg-1{
+    padding: 10px;
+}
+.card-round{
+    border-radius: 20px;
+    padding: 10px;
+}
