@@ -25,9 +25,6 @@ body{
 .banner-div-1{
     margin-top: 80px;
 }
-.banner-div-2{
- 
-}
 .banner-div-2 img{
     height: 500px;
     width: 500px;
@@ -57,6 +54,9 @@ body{
     height: 300px;
     width: 500px;
 }
+.col-md-5{
+    align-items: center;
+}
 .text-box{
     display: flex;
     justify-items: center;
@@ -73,7 +73,7 @@ body{
     margin: 100px;
 }
 .card-div-1{
-    margin: 80px;
+    margin: 100px;
 }
 .footer-dis{
     display: flex;
@@ -97,4 +97,66 @@ body{
 .card-round{
     border-radius: 20px;
     padding: 10px;
+    margin: 10px;
+    width: 31%;
 }
+@media screen and (max-width: 600px) {
+  .banner-div-2 img{
+    height: 300px;
+    width: 300px;
+    }
+    .text-box{
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .text-box img{
+        height: 50px;
+        width: 50px;
+    }
+    .shop-div{
+        margin: 10px;
+    }
+    .XMLID{
+        height: 300px;
+        width: 450px;
+    }
+    .card-round{
+        border-radius: 20px;
+    }
+    .card-div-1{
+        margin: 0px;
+        width: 1000px;
+        display: grid;
+        grid-row: 1;
+}
+@media screen and (max-width: 900px) {
+    .banner-div-2 img{
+      height: 300px;
+      width: 500px;
+      }
+      .text-box{
+          margin: 20px;
+          padding: 20px;
+          border-radius: 10px;
+      }
+      .text-box img{
+          height: 80px;
+          width: 80px;
+      }
+      .shop-div{
+          margin: 10px;
+      }
+      .XMLID{
+          height: 300px;
+          width: 500px;
+      }
+      .card-round{
+          border-radius: 20px;
+      }
+      .card-round{
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+        width: 31%;
+  }
